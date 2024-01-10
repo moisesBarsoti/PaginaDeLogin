@@ -1,0 +1,75 @@
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    transition: .5s;
+    font-family: sans-serif,Arial, Helvetica, sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+}
+
+
+nav#barraDeNavegacao {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 22px 0 ;
+}
+
+
+/* Logo */
+
+
+nav#barraDeNavegacao a#logo {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+    color: #fff;
+}
+
+
+header nav#barraDeNavegacao a#logo img {
+    width: 40px;
+    border-radius: 50%;
+}
+
+
+/* Links de navegação */
+
+
+header nav#barraDeNavegacao ul#links {
+    display: flex;
+    gap: 40px;
+}
+
+
+header nav#barraDeNavegacao ul#links a {
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #fff;
+}
+
+
+header nav#barraDeNavegacao ul#links a:hover {
+    color: #0eb;
+}
+
+
+/* Botão de login */
+
+header nav#barraDeNavegacao button#botaoDeLogin {
+    outline: none;
+    border: none;
+    color: #27282c;
+    font-size: 1rem;
+    font-weight: 600;
+    cursor: pointer;
+    border-radius: 3px;
+    padding: 10px 18px;
+}
