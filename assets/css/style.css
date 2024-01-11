@@ -96,7 +96,17 @@ div#form-popup div#form-box {
 
 
 div#form-box div#form-details {
+    width: 100%;
     max-width: 330px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    background-image: url("assets/img/login-img.jpg");
+    background-size: cover;
+    background-position: center;
+    color: #fff;
 }
 
 
