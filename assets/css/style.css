@@ -90,6 +90,15 @@ div#form-popup {
 }
 
 
+.close-btn {
+    position: absolute;
+    top: 12px;
+    right: 12px;
+    color: #878484;
+    cursor: pointer;
+}
+
+
 div#form-popup div#form-box {
     display: flex;
 }
